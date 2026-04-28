@@ -2,7 +2,7 @@
 
 A minimal VST3/AU reverb plugin built with JUCE. One-day project to get familiar with VST plugin development.
 
-Implements a feedback comb filter — the core building block of reverb. The algorithm is `y[n] = x[n] + g * y[n - D]`, where `g` is feedback gain and `D` is the delay in samples.
+Implements a feedback comb filter which is the core building block of reverb. The algorithm is `y[n] = x[n] + g * y[n - D]`, where `g` is feedback gain and `D` is the delay in samples.
 
 Two parameters exposed to the host:
 - **Loudness** — feedback gain (0.0–1.0). Higher values = longer, more ringy decay.
