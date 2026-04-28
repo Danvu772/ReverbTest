@@ -1,0 +1,22 @@
+# Build output
+Builds/MacOSX/build/
+Builds/VisualStudio2022/x64/
+Builds/VisualStudio2022/Win32/
+*.o
+*.obj
+*.a
+*.lib
+*.vst3
+*.component
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini

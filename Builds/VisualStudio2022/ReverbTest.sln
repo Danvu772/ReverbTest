@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverbTest - Standalone Plugin", "ReverbTest_StandalonePlugin.vcxproj", "{06B19861-E2A5-9A18-E428-AE7A90B83263}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FAA68D91-2D0F-59C6-D382-BA8A779EAA24} = {FAA68D91-2D0F-59C6-D382-BA8A779EAA24}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverbTest - VST3", "ReverbTest_VST3.vcxproj", "{CE8522E4-A4DA-E8D1-FE7D-57A82D3FD84A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FAA68D91-2D0F-59C6-D382-BA8A779EAA24} = {FAA68D91-2D0F-59C6-D382-BA8A779EAA24}
+		{4E1B143D-3CCE-27D5-016B-16D63C8A3493} = {4E1B143D-3CCE-27D5-016B-16D63C8A3493}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverbTest - Shared Code", "ReverbTest_SharedCode.vcxproj", "{FAA68D91-2D0F-59C6-D382-BA8A779EAA24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverbTest - VST3 Manifest Helper", "ReverbTest_VST3ManifestHelper.vcxproj", "{4E1B143D-3CCE-27D5-016B-16D63C8A3493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE8522E4-A4DA-E8D1-FE7D-57A82D3FD84A}.Debug|x64.ActiveCfg = Debug|x64
+		{CE8522E4-A4DA-E8D1-FE7D-57A82D3FD84A}.Debug|x64.Build.0 = Debug|x64
+		{CE8522E4-A4DA-E8D1-FE7D-57A82D3FD84A}.Release|x64.ActiveCfg = Release|x64
+		{CE8522E4-A4DA-E8D1-FE7D-57A82D3FD84A}.Release|x64.Build.0 = Release|x64
+		{06B19861-E2A5-9A18-E428-AE7A90B83263}.Debug|x64.ActiveCfg = Debug|x64
+		{06B19861-E2A5-9A18-E428-AE7A90B83263}.Debug|x64.Build.0 = Debug|x64
+		{06B19861-E2A5-9A18-E428-AE7A90B83263}.Release|x64.ActiveCfg = Release|x64
+		{06B19861-E2A5-9A18-E428-AE7A90B83263}.Release|x64.Build.0 = Release|x64
+		{FAA68D91-2D0F-59C6-D382-BA8A779EAA24}.Debug|x64.ActiveCfg = Debug|x64
+		{FAA68D91-2D0F-59C6-D382-BA8A779EAA24}.Debug|x64.Build.0 = Debug|x64
+		{FAA68D91-2D0F-59C6-D382-BA8A779EAA24}.Release|x64.ActiveCfg = Release|x64
+		{FAA68D91-2D0F-59C6-D382-BA8A779EAA24}.Release|x64.Build.0 = Release|x64
+		{4E1B143D-3CCE-27D5-016B-16D63C8A3493}.Debug|x64.ActiveCfg = Debug|x64
+		{4E1B143D-3CCE-27D5-016B-16D63C8A3493}.Debug|x64.Build.0 = Debug|x64
+		{4E1B143D-3CCE-27D5-016B-16D63C8A3493}.Release|x64.ActiveCfg = Release|x64
+		{4E1B143D-3CCE-27D5-016B-16D63C8A3493}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoiseGatePlugin - Standalone Plugin", "NoiseGatePlugin_StandalonePlugin.vcxproj", "{6AF86674-B8D9-A93B-60BC-9D10C1507319}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C176DA18-00EE-F6C9-2A80-507DAE5DD1DD} = {C176DA18-00EE-F6C9-2A80-507DAE5DD1DD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoiseGatePlugin - VST3", "NoiseGatePlugin_VST3.vcxproj", "{052A934E-1C81-5556-4574-7215139A8146}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C176DA18-00EE-F6C9-2A80-507DAE5DD1DD} = {C176DA18-00EE-F6C9-2A80-507DAE5DD1DD}
+		{EFFA2E94-2FDC-8BFD-8CDF-FE545F63C1F0} = {EFFA2E94-2FDC-8BFD-8CDF-FE545F63C1F0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoiseGatePlugin - Shared Code", "NoiseGatePlugin_SharedCode.vcxproj", "{C176DA18-00EE-F6C9-2A80-507DAE5DD1DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoiseGatePlugin - VST3 Manifest Helper", "NoiseGatePlugin_VST3ManifestHelper.vcxproj", "{EFFA2E94-2FDC-8BFD-8CDF-FE545F63C1F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052A934E-1C81-5556-4574-7215139A8146}.Debug|x64.ActiveCfg = Debug|x64
+		{052A934E-1C81-5556-4574-7215139A8146}.Debug|x64.Build.0 = Debug|x64
+		{052A934E-1C81-5556-4574-7215139A8146}.Release|x64.ActiveCfg = Release|x64
+		{052A934E-1C81-5556-4574-7215139A8146}.Release|x64.Build.0 = Release|x64
+		{6AF86674-B8D9-A93B-60BC-9D10C1507319}.Debug|x64.ActiveCfg = Debug|x64
+		{6AF86674-B8D9-A93B-60BC-9D10C1507319}.Debug|x64.Build.0 = Debug|x64
+		{6AF86674-B8D9-A93B-60BC-9D10C1507319}.Release|x64.ActiveCfg = Release|x64
+		{6AF86674-B8D9-A93B-60BC-9D10C1507319}.Release|x64.Build.0 = Release|x64
+		{C176DA18-00EE-F6C9-2A80-507DAE5DD1DD}.Debug|x64.ActiveCfg = Debug|x64
+		{C176DA18-00EE-F6C9-2A80-507DAE5DD1DD}.Debug|x64.Build.0 = Debug|x64
+		{C176DA18-00EE-F6C9-2A80-507DAE5DD1DD}.Release|x64.ActiveCfg = Release|x64
+		{C176DA18-00EE-F6C9-2A80-507DAE5DD1DD}.Release|x64.Build.0 = Release|x64
+		{EFFA2E94-2FDC-8BFD-8CDF-FE545F63C1F0}.Debug|x64.ActiveCfg = Debug|x64
+		{EFFA2E94-2FDC-8BFD-8CDF-FE545F63C1F0}.Debug|x64.Build.0 = Debug|x64
+		{EFFA2E94-2FDC-8BFD-8CDF-FE545F63C1F0}.Release|x64.ActiveCfg = Release|x64
+		{EFFA2E94-2FDC-8BFD-8CDF-FE545F63C1F0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
